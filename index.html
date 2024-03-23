@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./collapsible.css">
+    <link rel="stylesheet" href="./pagination.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script defer src="./slider.js"></script>
+    <script defer src="./scripts/index.js"></script>
+    <script defer src="./collapsible.js"></script>
+</head>
+
+<body>
+    <section class="top">
+        <div class="container">
+            <div class="row">
+                <div class="top-logo">
+                    <img src="./logo (1).webp" alt="logo">
+                </div>
+                <div class="top-menu-items">
+                    <ul>
+                        <li>SẢN PHẨM
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="./sanpham.html">Đầm</a>
+                                </li>
+                                <li>
+                                    <a href="./aosomi.html">Áo sơ mi</a>
+                                </li>
+                                <li>
+                                    <a href="">Áo kiểu</a>
+                                </li>
+                                <li>
+                                    <a href="">Chân váy</a>
+                                </li>
+                                <li>
+                                    <a href="">Quần</a>
+                                </li>
+                                <li>
+                                    <a href="">Set bộ</a>
+                                </li>
+                                <li>
+                                    <a href="">Áo len</a>
+                                </li>
+                                <li>
+                                    <a href="">Áo khoác</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./aokieu.html">NEW</a>
+                        </li>
+                        <li>BST
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="">Touch Of Mind</a>
+                                </li>
+                                <li>
+                                    <a href="">Sắc Mùa Tết</a>
+                                </li>
+                                <li>
+                                    <a href="">Xuân Thì</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>SẢN PHẨM GIÁ TỐT</li>
+                        <li>SALE
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="">Sale Up 50%</a>
+                                </li>
+                                <li>
+                                    <a href="">Chỉ Từ 199k</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-menu-icons">
+                    <ul>
+                        <li>
+                            <input type="text" placeholder="Search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                        <li>
+                            <a href="./cart.html">
+                            <i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                        <li>
+                            <a href="./dangnhap.html">
+                            <i class="fa-solid fa-user"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------slider------->
+    <section id="Slider">
+        <div class="slider-container">
+            <div class="item-slider w3-animate-right active">
+                <img src="./v2.jpg" alt="slide">
+            </div>
+            <div class="item-slider w3-animate-right">
+                <img src="./v1.jpg" alt="slide">
+            </div>
+            <div class="item-slider w3-animate-right">
+                <img src="./v3.jpg" alt="slide">
+            </div>
+            <div class="item-slider w3-animate-right">
+                <img src="./v4.jpg" alt="slide">
+            </div>
+        </div>
+
+        <div class="dot-container">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </section>
+
+    <!--------cartegory------>
+    <section class="cartegory">
+        <div class="container">
+            <div class="cartegory-top row">
+                <p>Trang chủ</p> <span>&#10230;</span>
+                <p>Sản Phẩm</p> <span>&#10230;</span>
+                <p>Đầm</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row category-content-container">
+                <div class="cartegory-left">
+
+                    <div class="collapsible">
+                        <p>Sản Phẩm</p>
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li><a href="./sanpham.html">Đầm suông</a></li>
+                            <li><a href="./aosomi.html">Áo sơ mi</a></li>
+                            <li><a href="./aokieu.html">Áo kiểu</a></li>
+                            <li><a href="">Quần</a></li>
+                            <li><a href="">Set bộ</a></li>
+                            <li><a href="">Chân váy</a></li>
+                            <li><a href="">Áo len</a></li>
+                            <li><a href="">Áo khoác</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="collapsible">
+                        <p>New</p>
+                    </div>
+                    <div class="content">
+
+                    </div>
+                    <div class="collapsible">
+                        <p>BST</p>
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li><a href="./BST.html">Touch of mind</a></li>
+                            <li><a href="">Sắc màu Tết</a></li>
+                            <li><a href="">Xuân thì</a></li>
+                        </ul>
+                    </div>
+                    <div class="collapsible">Sản Phẩm Giá Tốt</div>
+                    <div class="content"></div>
+
+                    <div class="collapsible">
+                        <p>Sale</p>
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li><a href="">Sale upto 50%</a></li>
+                            <li><a href="">Chỉ từ 199K</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cartegory-right row">
+                    <div class="cartegory-right-top-item">
+                        <p>Đầm</p>
+                    </div>
+                    <div class="cartegory-right-top-item">
+                        <button><span>Bộ lọc</span><i class="fa-solid fa-sort-down"></i></button>
+                    </div>
+                    <div class="cartegory-right-top-item">
+                        <select name="id">
+                            <option value="">Sắp xếp</option>
+                            <option value="">Giá cao đến thấp</option>
+                            <option value="">Giá thấp đến cao</option>
+                        </select>
+                    </div>
+                    <div class="cartegory-right-content row">
+                        <div class="cartegory-right-content-item">
+                            <img src="./d1.webp" alt="">
+                            <h1>ĐẦM REN ĐEN D64032</h1>
+                            <p>1,599,000₫</p>
+                        </div>
+                        <div class="cartegory-right-content-item">
+                            <img src="./d2.webp" alt="">
+                            <h1>ĐẦM SUÔNG HỌA TIẾT D14952</h1>
+                            <p>1,399,000₫</p>
+                        </div>
+                        <div class="cartegory-right-content-item">
+                            <img src="./d3.webp" alt="">
+                                <h1>ĐẦM LỤA IN HOA D11122</h1>
+                            <p>699,500₫</p>
+                        </div>
+                        <div class="cartegory-right-content-item">
+                            <img src="./d4.webp" alt="">
+                            <h1>ĐẦM REN ĐÍNH NGỌC D41382</h1>
+                            <p>539,000₫</p>
+                        </div>
+                        <div class="cartegory-right-content-item">
+                            <img src="./d5.webp" alt="">
+                            <h1>ĐẦM HẠ EO XẾP LI D06512</h1>
+                            <p>799,500₫</p>
+                        </div>
+                        <div class="cartegory-right-content-item">
+                            <img src="./d6.webp" alt="">
+                            <h1>ĐẦM SUÔNG D06522</h1>
+                            <p>799,500₫</p>
+                        </div>
+                        <div class="cartegory-right-content-item">
+                            <img src="./d7.webp" alt="">
+                            <h1>ĐẦM VOAN HOA D41712</h1>
+                            <p>699,500₫</p>
+                        </div>
+                        <div class="cartegory-right-content-item">
+                            <img src="./d9.webp" alt="">
+                            <h1>ĐẦM TIỆC THIẾT KẾ NHÚN EO D15702</h1>
+                            <p>1,599,500₫</p>
+                        </div>
+                    </div>
+                    <div class="cartegory-right-bottom row">
+                        <div class="cartegory-right-bottom-item">
+                            <p>Hiển thị 1 <span>|</span>4 sản phẩm
+                        </div>
+                        </p>
+                    </div>
+                    <div class="cartegory-right-bottom-item pagination">
+                        <a href="#">&laquo;</a>
+                        <a href="#" class="active">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">&raquo;</a>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!----------footer------>
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="index.html"><img src="./logo (1).webp" alt="" class="img-fluid logo-footer"></a>
+              <div class="footer-about">
+                  <p>NEM is simply dummy text of the printing and typesetting industry.</br> NEM has been the industry's standard dummy text ever since the 1500s,  </p>
+              </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="useful-link">
+                    <h2>Useful Links</h2>
+                    <div class="use-links">
+                        <li><i class="fa-solid fa-angles-right"></i> Home</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i> About Us</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i> Gallery</a></li>
+                        <li><i class="fa-solid fa-angles-right"></i> Contact</a></li>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="social-links">
+                    <h2>Follow Us</h2>
+                    <div class="social-icons">
+                        <li><a href=""><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                        <li><a href=""><i class="fa-brands fa-youtube"></i> Youtube</a></li>
+                    </div>
+                </div>
+            
+
+            </div>
+            <div class="col-md-3">
+                <div class="address">
+                    <h2>Address</h2>
+                    <div class="address-links">
+                        <li class="address1"><i class="fa-solid fa-location-dot"></i>đường Lâm Hạ phường Bồ Đề, quận Long Biên, Hà Nội
+                          </li>
+                           <li><a href=""><i class="fa-solid fa-phone"></i>0246.2591551</a></li>
+                           <li><a href=""><i class="fa-solid fa-envelope"></i>nemcskh@stripe-vn.com</a></li>
+                    </div>
+                </div>
+            </div>
+
+          
+        </div>
+    </div>
+
+</footer>
+
+<section id="copy-right">
+    <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>  
+        lorem ispum lorem ispum 2022 Powerd By <a href="#">lorem ispum</a> 
+    </div>
+
+</section>
+</body>
+</html>

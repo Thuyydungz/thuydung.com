@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .details-page {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+  }
+  .details-page-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .details-page-top img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .details-page-top-info {
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+  }
+  .details-page-top-info h1 {
+    margin-bottom: 10px;
+  }
+  .details-page-top-info p {
+    margin-bottom: 20px;
+  }
+  .details-page-top-info-sale-off {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  .details-page-top-info-sale-off span {
+    color: #fff;
+    background-color: #e74c3c;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  .details-page-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  .details-page-bottom-content {
+    width: 45%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+  }
+  .details-page-bottom-content h2 {
+    margin-bottom: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  th {
+    text-align: left;
+  }

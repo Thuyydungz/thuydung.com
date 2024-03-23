@@ -1,0 +1,40 @@
+.collapsible {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .collapsible .fa-minus {
+    display: none;
+  }
+  
+  .collapsible:not(.active):hover {
+    background-color: #e7e7e7;
+  }
+  
+  .active {
+    background-color: #c1c1c1;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+  
+  .active .fa-minus {
+    display: block;
+  }
+  
+  .active .fa-plus {
+    display: none;
+  }
